@@ -1,0 +1,69 @@
+@font-face{
+  font-family: 'Raleway';
+  src: url(../../fonts/Raleway.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face{
+  font-family: 'Lato';
+  src: url(../../fonts/Lato.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face{
+  font-family: 'Lato';
+  src: url(../../fonts/MgOpenModata.ttf);
+  font-weight: normal;
+  font-style: normal;
+}
+
+$narrowwidth: 21%;
+$imgwidth: 5%;
+
+/*COLORS:*/
+
+$darkBlack: #131313;
+$lightblack:#08080c;
+$greyBlack:#262626;
+$ladyRed: #ff0035;
+$white: #ffffff;
+$grayText: #a4a4a4;
+$grayArrow: #a3a3a3;
+
+/*МИКСИНЫ:*/
+
+@mixin headtitle {
+  font-size: 30px;
+  color: #262626;
+  font-family: "Raleway";
+  font-weight: 700;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 50px;
+  margin-right: 5%;
+  margin-left: 5%;
+}
+
+@mixin headtext {
+  font-size: 16px;
+  line-height: 22px;
+  color: #505050;
+  font-family: "Lato";
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 100px;
+}
+
+@mixin back {
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin alignment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
